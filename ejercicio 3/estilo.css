@@ -1,0 +1,158 @@
+.container
+{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header .main-navigation 
+{
+    padding-top: 30px;
+}
+
+.navbar-brand 
+{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.gradiente
+{
+   color: linear-gradient(90deg, rgba(240,0,0,1) 48%, rgba(255,137,18,1) 100%);
+}
+
+/* CARDS */
+.estadisticas-card .card-body
+{
+    color: darkgrey;
+}
+
+.estadisticas-card i
+{
+    color: red;
+}
+
+.items-card
+{
+    background-color: rgb(17, 17, 17);
+}
+
+.items-card .card-body
+{
+    color: white;
+}
+
+.items-card .card-body > p
+{
+    color: darkgrey;
+}
+
+/* Carousel */
+.carousel-div
+{
+    background-image: url(./imagenes/client-banner.jpg);
+}
+
+.carousel-overlay
+{
+    background-color: rgba(32, 32, 32, 0.9);
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+  .carousel-item {
+    height: 32rem;
+}
+
+/*Apartado de Tiendas Mobiles*/
+
+.title
+{
+    color: white;
+}
+
+.subtitle
+{
+    color: red;
+}
+
+.heading-area
+{
+    width: 50%;
+    margin: auto;
+}
+
+.apps
+{
+    width: 65%;
+    margin: auto;
+}
+
+.image-holder
+{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+  
+/* Smaller than small */
+@media(min-width: 0px)
+{
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) 
+{ 
+    .container
+    {
+        max-width: 540px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{ 
+    .container
+    {
+        max-width: 720px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) 
+{ 
+    .container
+    {
+        max-width: 960px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{ 
+    .container
+    {
+        max-width: 1140px;
+    }
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) 
+{
+
+}
