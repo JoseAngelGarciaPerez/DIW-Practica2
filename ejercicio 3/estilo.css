@@ -111,7 +111,10 @@ header .main-navigation
 /* Smaller than small */
 @media(min-width: 0px)
 {
-
+    .imagenLanding
+    {
+        opacity: 0;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -120,6 +123,10 @@ header .main-navigation
     .container
     {
         max-width: 540px;
+    }
+    .imagenLanding
+    {
+        opacity: 0;
     }
 }
 
@@ -130,6 +137,10 @@ header .main-navigation
     {
         max-width: 720px;
     }
+    .imagenLanding
+    {
+        opacity: 0;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -138,6 +149,10 @@ header .main-navigation
     .container
     {
         max-width: 960px;
+    }
+    .imagenLanding
+    {
+        opacity: 1;
     }
 }
 
@@ -148,11 +163,18 @@ header .main-navigation
     {
         max-width: 1140px;
     }
+    .imagenLanding
+    {
+        opacity: 1;
+    }
 
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) 
 {
-
+    .imagenLanding
+    {
+        opacity: 1;
+    }
 }
